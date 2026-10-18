@@ -95,26 +95,6 @@ Gosto de juntar duas coisas: **programar** (C#, banco de dados, web) e **desenha
 
 ---
 
-## ✦ Atividade
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=7pdro&bg_color=1A1025&color=FF8FB1&line=A855F7&point=D4AF37&area=true&area_color=7B2CBF&hide_border=true" alt="Activity Graph" width="100%" />
-
-</div>
-
----
-
-## ✦ Troféus
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=7pdro&theme=onedark&no-frame=true&no-bg=true&margin-w=10&column=7" alt="GitHub Trophies" />
-
-</div>
-
----
-
 ## ✦ Contribuições
 
 <div align="center">
