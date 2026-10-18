@@ -126,7 +126,7 @@ Gosto de juntar duas coisas: **programar** (C#, banco de dados, web) e **desenha
 
 <div align="center">
 
-<sub>✦ feito com café, código e um pouco de roxo ✦</sub>
+<sub>✦ feito com código, criatividade e um pouco de café ✦</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=6D28D9&section=footer&text=obrigado%20por%20passar%20por%20aqui&fontColor=F5D77A&fontSize=18&fontAlignY=70" width="100%" alt="Rodapé" />
 
