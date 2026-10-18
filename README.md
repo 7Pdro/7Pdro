@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=6D28D9&text=Pedro%20Paulo&fontColor=F5D77A&fontSize=54&fontAlignY=38&desc=estudante%20%E2%80%A2%20t%C3%A9cnico%20%E2%80%A2%20c%C3%B3digo%20%26%20design&descColor=FFD6E7&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Banner Pedro Paulo" />
+   <img src="./banner.svg" width="100%" alt="Banner Pedro Paulo" />
 
 <a href="https://github.com/7pdro">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1200&color=D4AF37&center=true&vCenter=true&width=520&lines=Estudante+do+2%C2%BA+ano+t%C3%A9cnico+%F0%9F%92%9C;Aprendendo+C%23+e+MySQL;Front-end+com+HTML%2C+CSS+e+JavaScript;Design+no+Figma%2C+Canva+e+Photoshop" alt="Typing animation" />
