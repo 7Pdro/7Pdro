@@ -1,123 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#05030A"/>
-      <stop offset="0.6" stop-color="#150B2B"/>
-      <stop offset="1" stop-color="#2D1B4E"/>
+    <clipPath id="clip"><rect width="1200" height="340" rx="18"/></clipPath>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+
+    <linearGradient id="orbRoxo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9D3BD5"/>
+      <stop offset="0.5" stop-color="#E4B7FF"/>
+      <stop offset="1" stop-color="#9D3BD5"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#F5D77A"/>
-      <stop offset="1" stop-color="#D4AF37"/>
+    <linearGradient id="orbVerde" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#30FF37"/>
+      <stop offset="1" stop-color="#5EC990"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#F5D77A" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#F5D77A" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="harlequin" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M22 0 L44 22 L22 44 L0 22 Z" fill="#A855F7" opacity="0.06"/>
-    </pattern>
-    <mask id="crescent">
-      <rect width="1200" height="300" fill="white"/>
-      <circle cx="1092" cy="88" r="52" fill="black"/>
-    </mask>
+
+    <!-- gradiente animado do "Pedro" -->
+    <linearGradient id="gPedro" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="490" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#9D3BD5"/>
+      <stop offset="0.35" stop-color="#aa44e6"/>
+      <stop offset="0.65" stop-color="#fdfdfd"/>
+      <stop offset="1" stop-color="#9D3BD5"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="400 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- gradiente animado do "Paulo" -->
+    <linearGradient id="gPaulo" gradientUnits="userSpaceOnUse" x1="90" y1="0" x2="490" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#30FF37"/>
+      <stop offset="0.35" stop-color="#ffffff"/>
+      <stop offset="0.65" stop-color="#1dd320"/>
+      <stop offset="1" stop-color="#30FF37"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="400 0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- moldura ornamental do canto -->
+    <g id="moldura" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 96 C0 40 40 0 96 0" stroke="#d5bbf2" stroke-width="5"/>
+      <path d="M96 0 C122 -4 134 18 120 28 C108 36 94 24 102 14" stroke="#d5bbf2" stroke-width="4"/>
+      <path d="M0 96 C-4 122 18 134 28 120 C36 108 24 94 14 102" stroke="#d5bbf2" stroke-width="4"/>
+      <path d="M22 70 C26 46 46 26 70 22" stroke="#5EC990" stroke-width="3"/>
+      <path d="M52 8 C60 -4 74 -2 74 10 C64 14 56 14 52 8 Z" fill="#5EC990" stroke="none"/>
+      <path d="M8 52 C-4 60 -2 74 10 74 C14 64 14 56 8 52 Z" fill="#5EC990" stroke="none"/>
+      <circle cx="30" cy="30" r="4" fill="#AE7CD9" stroke="none"/>
+    </g>
   </defs>
 
-  <rect width="1200" height="300" rx="18" fill="url(#sky)"/>
-  <rect width="1200" height="300" rx="18" fill="url(#harlequin)"/>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="340" fill="#0b0c10"/>
 
-  <!-- estrelas -->
-  <g fill="#FFFFFF">
-    <circle cx="90" cy="50" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
-    <circle cx="520" cy="35" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="640" cy="70" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="880" cy="40" r="1.8"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
-    <circle cx="960" cy="140" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/></circle>
-    <circle cx="1170" cy="170" r="2"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
-  </g>
-
-  <!-- lua -->
-  <circle cx="1060" cy="100" r="110" fill="url(#glow)"/>
-  <circle cx="1060" cy="100" r="58" fill="#F5E6A8" mask="url(#crescent)"/>
-
-  <!-- naipes flutuando -->
-  <g>
-    <path d="M430 120 L442 136 L430 152 L418 136 Z" fill="#FF8FB1" opacity="0.75">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 6 -12; 0 0" dur="6s" repeatCount="indefinite"/>
-    </path>
-    <path d="M110 210 L120 223 L110 236 L100 223 Z" fill="#D4AF37" opacity="0.7">
-      <animateTransform attributeName="transform" type="translate" values="0 0; -5 -10; 0 0" dur="7s" repeatCount="indefinite"/>
-    </path>
-    <path d="M380 220 L389 232 L380 244 L371 232 Z" fill="#A855F7" opacity="0.8">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 5 -9; 0 0" dur="5.5s" repeatCount="indefinite"/>
-    </path>
-  </g>
-
-  <!-- palhaço com foice -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="5s" repeatCount="indefinite"/>
-
-    <!-- foice -->
-    <line x1="305" y1="292" x2="285" y2="40" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/>
-    <path d="M285 40 Q360 28 412 100 Q346 62 289 66 Z" fill="url(#gold)"/>
-
-    <!-- manto rasgado -->
-    <path d="M198 196 L262 196 L292 300 L276 284 L262 300 L246 283 L230 300 L214 283 L198 300 L184 284 L168 300 Z" fill="#07040E" stroke="#4C1D95" stroke-width="1.5"/>
-    <path d="M230 205 L236 214 L230 223 L224 214 Z" fill="#FF8FB1"/>
-    <path d="M230 232 L236 241 L230 250 L224 241 Z" fill="#D4AF37"/>
-    <path d="M230 259 L236 268 L230 277 L224 268 Z" fill="#A855F7"/>
-
-    <!-- braço e mão -->
-    <line x1="262" y1="206" x2="296" y2="215" stroke="#07040E" stroke-width="13" stroke-linecap="round"/>
-    <circle cx="299" cy="215" r="6" fill="#F3E8FF"/>
-
-    <!-- cabeça -->
-    <ellipse cx="230" cy="152" rx="27" ry="30" fill="#F3E8FF"/>
-
-    <!-- gola de babados -->
-    <polygon points="194,180 202,198 210,181 218,199 226,181 234,199 242,181 250,199 258,181 266,198 266,180" fill="#FFD6E7" stroke="#C4B5FD" stroke-width="1"/>
-
-    <!-- olhos vazios -->
-    <ellipse cx="219" cy="148" rx="6" ry="8" fill="#0B0714"/>
-    <ellipse cx="241" cy="148" rx="6" ry="8" fill="#0B0714"/>
-    <circle cx="219" cy="149" r="2.2" fill="#FF8FB1"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="241" cy="149" r="2.2" fill="#FF8FB1"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
-
-    <!-- losangos de palhaço nas bochechas -->
-    <path d="M208 160 L212 166 L208 172 L204 166 Z" fill="#FF8FB1"/>
-    <path d="M252 160 L256 166 L252 172 L248 166 Z" fill="#FF8FB1"/>
-
-    <!-- sorriso largo -->
-    <path d="M208 164 Q230 192 252 164 Q230 176 208 164 Z" fill="#0B0714" stroke="#FF8FB1" stroke-width="1.2" stroke-linejoin="round"/>
-    <g stroke="#FF8FB1" stroke-width="1">
-      <line x1="218" y1="170" x2="218" y2="177"/>
-      <line x1="224" y1="172" x2="224" y2="180"/>
-      <line x1="230" y1="173" x2="230" y2="181"/>
-      <line x1="236" y1="172" x2="236" y2="180"/>
-      <line x1="242" y1="170" x2="242" y2="177"/>
+    <!-- círculos de fundo (como no portfólio) -->
+    <g filter="url(#blur)">
+      <circle cx="140" cy="60" r="150" fill="url(#orbRoxo)" opacity="0.75">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 70 40; 0 0" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="300" r="140" fill="url(#orbVerde)" opacity="0.55">
+        <animateTransform attributeName="transform" type="translate" values="0 0; -80 -40; 0 0" dur="16s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="620" cy="360" r="110" fill="url(#orbRoxo)" opacity="0.5">
+        <animateTransform attributeName="transform" type="translate" values="0 0; 60 -30; 0 0" dur="18s" repeatCount="indefinite"/>
+      </circle>
     </g>
-
-    <!-- chapéu de bobo da corte -->
-    <path d="M204 131 C196 100 170 88 132 104 C170 96 205 108 232 114 Z" fill="#6D28D9"/>
-    <path d="M256 131 C264 100 290 88 328 104 C290 96 255 108 228 114 Z" fill="#FF8FB1"/>
-    <path d="M204 131 L230 80 L256 131 Z" fill="#4C1D95" stroke="#A855F7" stroke-width="1"/>
-    <rect x="202" y="124" width="56" height="9" rx="3" fill="url(#gold)"/>
-    <circle cx="132" cy="104" r="5" fill="#F5D77A"/>
-    <circle cx="328" cy="104" r="5" fill="#F5D77A"/>
-    <circle cx="230" cy="80" r="5" fill="#F5D77A"/>
   </g>
 
-  <!-- título -->
-  <text x="740" y="150" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="bold" fill="url(#gold)" letter-spacing="4">Pedro Paulo</text>
-  <line x1="660" y1="175" x2="820" y2="175" stroke="#FF8FB1" stroke-width="2" stroke-linecap="round"/>
-  <text x="740" y="212" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="17" fill="#FFD6E7" letter-spacing="5">ESTUDANTE  •  CÓDIGO  •  DESIGN</text>
+  <!-- painel de vidro -->
+  <rect x="40" y="38" width="1120" height="264" rx="62" fill="#525151" fill-opacity="0.45" stroke="#AE7CD9" stroke-width="6"/>
 
-  <!-- névoa -->
-  <g>
-    <ellipse cx="300" cy="295" rx="380" ry="26" fill="#C4B5FD" opacity="0.10">
-      <animateTransform attributeName="transform" type="translate" values="-40 0; 40 0; -40 0" dur="14s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="880" cy="290" rx="420" ry="30" fill="#FF8FB1" opacity="0.12">
-      <animateTransform attributeName="transform" type="translate" values="50 0; -50 0; 50 0" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
-</svg>
+  <!-- molduras dos cantos -->
+  <use href="#moldura" x="20" y="18"/>
+  <use href="#moldura" transform="translate(1180 322) rotate(180)"/>
+
+  <!-- lado esquerdo: nome -->
+  <text x="100" y="104" font-family="'Intel One Mono', 'Courier New', monospace" font-size="24" fill="#ffffff">Hello, I'm</text>
+  <text x="96" y="188" font-family="'Intel One Mono', 'Courier New', monospace" font-size="78" letter-spacing="-4" fill="url(#gPedro)">Pedro</text>
+  <text x="96" y="268" font-family="'Intel One Mono', 'Courier New', monospace" font-size="78" letter-spacing="-4" fill="url(#gPaulo)">Paulo</text>
+
+  <!-- lado direito: estilo do painel Projects -->
+  <text x="640" y="104" font-family="'Intel One Mono', 'Courier New', monospace" font-size="30" fill="#ffffff">Projects</text>
+  <line x1="780" y1="95" x2="1118" y2="95"
