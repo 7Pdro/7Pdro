@@ -218,6 +218,14 @@ Espaço para as próximas ideias, experiências visuais e projetos que vão surg
 
 </div>
 
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg"
+    alt="GitHub contribution animation"
+    width="100%"
+  />
+</p>
+
 <!--
 =========================================================
 ATIVAÇÃO DA CONTRIBUTION SNAKE
