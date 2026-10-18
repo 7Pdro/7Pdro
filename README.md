@@ -172,23 +172,15 @@ Espaço para as próximas ideias, experiências visuais e projetos que vão surg
 
 ## `07` — Contribution snake
 
-
----
-
-## `07` — Contribution snake
-
-<div align="center">
-
+<p align="center">
   <img
+    src="https://github.com/7pdro/7pdro/blob/output/github-snake.svg?raw=true"
+    alt="GitHub contribution snake"
     width="100%"
-    src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg"
-    alt="Animação da cobrinha percorrendo o gráfico de contribuições do GitHub"
   />
-
-</div>
+</p>
 
 <sub>Uma pequena animação da minha atividade no GitHub.</sub>
-
 ---
 
 ## `08` — Onde me encontrar
