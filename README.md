@@ -97,11 +97,15 @@ Gosto de juntar duas coisas: **programar** (C#, banco de dados, web) e **desenha
 
 ## ✦ Contribuições
 
+<div align="center">
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg" />
-  <img alt="Snake contribution graph" src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg?v=2" />
+  <img alt="Snake contribution graph" src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake-dark.svg?v=2" />
 </picture>
+
+</div>
 
 ---
 
