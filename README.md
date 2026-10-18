@@ -172,17 +172,22 @@ Espaço para as próximas ideias, experiências visuais e projetos que vão surg
 
 ## `07` — Contribution snake
 
+
+---
+
+## `07` — Contribution snake
+
 <div align="center">
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/7pdro/7pdro/output/github-contribution-grid-snake.svg"/>
-    <img alt="Animação da cobra percorrendo o gráfico de contribuições do GitHub" src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-contribution-grid-snake.svg"/>
-  </picture>
+  <img
+    width="100%"
+    src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg"
+    alt="Animação da cobrinha percorrendo o gráfico de contribuições do GitHub"
+  />
 
 </div>
 
-<sub>Para ativar essa seção, configure o GitHub Actions no repositório de perfil. As instruções estão no final deste arquivo.</sub>
+<sub>Uma pequena animação da minha atividade no GitHub.</sub>
 
 ---
 
@@ -218,13 +223,6 @@ Espaço para as próximas ideias, experiências visuais e projetos que vão surg
 
 </div>
 
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/7pdro/7pdro/output/github-snake.svg"
-    alt="GitHub contribution animation"
-    width="100%"
-  />
-</p>
 
 <!--
 =========================================================
