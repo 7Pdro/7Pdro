@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/7pdro/7pdro/main/banner-v3.svg" width="100%" alt="Banner Pedro Paulo" />
+<img src="https://raw.githubusercontent.com/7pdro/7pdro/main/banner-v4.svg" width="100%" alt="Banner Pedro Paulo" />
 
 <a href="https://github.com/7pdro">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=1200&color=D4AF37&center=true&vCenter=true&width=520&lines=Estudante+do+2%C2%BA+ano+t%C3%A9cnico+%F0%9F%92%9C;Aprendendo+C%23+e+MySQL;Front-end+com+HTML%2C+CSS+e+JavaScript;Design+no+Figma%2C+Canva+e+Photoshop" alt="Typing animation" />
