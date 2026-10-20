@@ -55,21 +55,21 @@ Gosto de juntar duas coisas: **programar** (C#, banco de dados, web) e **desenha
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <h3>🌙 Morrow</h3>
-      <p>Projeto web publicado no GitHub Pages.</p>
+      <h3>Morrow</h3>
+      <p>Projeto site de lojas de roupa streetwear.</p>
       <a href="https://7pdro.github.io/Morrow/">
         <img src="https://img.shields.io/badge/ver_projeto-7B2CBF?style=for-the-badge&labelColor=2D1B4E" alt="Ver Morrow" />
       </a>
     </td>
     <td align="center" width="33%">
-      <h3>🍽️ Recria o site restaurante</h3>
+      <h3>Site treino</h3>
       <p>Recriação de um site de restaurante.</p>
       <a href="https://7pdro.github.io/Recria-o-site-restaurante/">
         <img src="https://img.shields.io/badge/ver_projeto-D4AF37?style=for-the-badge&labelColor=2D1B4E" alt="Ver site do restaurante" />
       </a>
     </td>
     <td align="center" width="33%">
-      <h3>📐 Site uso do Flex</h3>
+      <h3>Site uso do Flex</h3>
       <p>Estudo prático de layout com Flexbox.</p>
       <a href="https://7pdro.github.io/Site-uso-da-flex/">
         <img src="https://img.shields.io/badge/ver_projeto-FF8FB1?style=for-the-badge&labelColor=2D1B4E" alt="Ver site Flex" />
